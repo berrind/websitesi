@@ -1,0 +1,48 @@
+body {
+font-family: Arial, Verdana,  sans-serif; /* Yazı tipi ailesi */
+font-size: 11px; /* <p></p> etiketindeki ana yazı tipi boyutu */
+background-color: #00d0ff; /* Web sayfasının arka plan rengi */
+color: #333; /* Metin rengi */
+}
+
+@keyframes color-change {
+    0% {
+      color: blue;
+    }
+  
+    50% {
+      color: red;
+    }
+  
+    100% {
+      color: blue;
+    }
+}
+
+h1:hover {
+    animation: color-change 3s infinite;
+color: #006986; /* Başlık rengi */
+font-size: 24pt; /* Başlık yazı tipi boyutu */
+font-family: Georgia, Times, serif; /* Başlık için kullanılan yazı tipi ailesi */
+}
+
+h2 {
+    color: #820763; /* Başlık rengi */
+    font-size: 10pt; /* Başlık yazı tipi boyutu */
+    font-family: "Times New Roman", Times, serif; /* Başlık için kullanılan yazı tipi ailesi */
+    }
+
+    ul {
+        list-style-type: square; /* Madde işaretini kare yapar */
+        padding-left: 20px;
+    }
+    
+ul li {
+        font-family: Arial, sans-serif; /* Yazı tipini belirler */
+        font-size: 16px; /* Yazı boyutunu belirler */
+        color: #5d5de4; /* Yazı rengini belirler */
+        background-color: #f0f0f5; /* Arka plan rengini belirler */
+        padding: 8px; /* Liste elemanlarının iç boşluğunu belirler */
+        margin-bottom: 5px; /* Liste elemanları arasına boşluk ekler */
+        border-radius: 5px; /* Kenarları yuvarlatır */
+}
